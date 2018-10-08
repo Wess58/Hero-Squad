@@ -1,0 +1,125 @@
+body {
+  font-family: 'Baloo', cursive;
+  background-color: #cacfd2;
+}
+
+.contform {
+  margin-top: -60%;
+}
+
+.contIndex {
+  margin-top: 2em;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ecf0f1;
+  box-shadow: 0 0 30px 5px #808b96;
+}
+
+.contsuccess {
+  margin-top: 2em;
+  padding: 20px;
+  padding-left: 30%;
+}
+
+.contView {
+  margin-top: 2em;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ecf0f1;
+  box-shadow: 0 0 30px 5px #808b96;
+}
+
+#poem {
+  font-size: 20px;
+}
+
+a {
+  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+a:hover {
+  box-shadow: 0 0 5px 2px grey;
+}
+
+input {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  opacity: 0.85;
+  padding-left: 20px;
+}
+
+label {
+  font-size: 30px;
+}
+
+#lego {
+  width: 1152px;
+  height: 720px;
+  margin-top: 2em;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 10px #808b96;
+}
+
+.card1 {
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.card2 {
+  width: 450px;
+  margin-bottom: 2em;
+  padding: 20px;
+  background-color: #28b463;
+}
+
+#indexh1 {
+  font-family: 'Monoton', cursive;
+  font-size: 100px;
+}
+
+#formh1 {
+  font-family: 'Audiowide', cursive;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+#successh1 {
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+}
+
+#viewh1 {
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Audiowide', cursive;
+  color: #e74c3c;
+}
+ul{
+  list-style: none;
+}
+
+#icon1 {
+  width: 300px;
+  height: 300px;
+}
+#icon2{
+  width: 70px;
+  height: 70px;
+}
+
+#sucessIcon {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4em;
+}

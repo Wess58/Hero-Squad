@@ -34,5 +34,30 @@ public class App {
        }, new VelocityTemplateEngine());
 
 
+//to update addition of the heroes
+        post("/heroes", (request, response) -> {
+          Map<String, Object> model = new HashMap<String, Object>();
+
+          // ArrayList<Hero> heroes = request.session().attribute("heroes");
+          // if (heroes == null) {
+          //   heroes = new ArrayList<Hero>();
+          //   request.session().attribute("heroes", heroes);
+          // }
+
+          String alias = request.queryParams("alias");
+          String age = request.queryParams("age");
+          String specialPower = request.queryParams("specialPower");
+          String weakness = request.queryParams("weakness");
+          Hero newHero = new Hero(alias, age, specialPower, weakness);
+
+
+          // request.session().attribute("hero", newHero);
+          //  heroes.add(newHero);
+
+          model.put("template", "templates/success.vtl");
+          return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
+
+
     }
 }
