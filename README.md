@@ -6,7 +6,7 @@
 
   This a Java app that allows you to recruit a well-balanced team of superheroes.It Allows users to assign Heroes to a Squad. But Each hero can only participate in one Squad at a time.Enjoy the game's interface and reach out if anybugs are experinced.
 
- Here's the link to Live site :< https://warm-ridge-63783.herokuapp.com/>
+ Here's the link to Live site :< https://warm-ridge-63783.herokuapp.com/ >
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@
 
 
 ### BUGS
-No Bugs found, If any are experienced contact via Email 'wesleymbate@gmail.com' and the issue will be sorted.
+No Bugs found, If any are experienced contact via Email wesleymbate@gmail.com and the issue will be sorted.
 
 
 ### LICENSE
