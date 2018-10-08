@@ -1,0 +1,25 @@
+<div class="container contView">
+#if ($heroes)
+  <h1 id="viewh1">View Your Heroes
+  <img id="icon2" src="images/hero-icon.jpg">
+  </h1>
+  <ul>
+  #foreach ($hero in $heroes)
+  <div class="card card1">
+  <li>
+  <h2>$hero.getAlias()</h2><br>
+  $hero.getAge()<br>
+  $hero.getSpecialPower()<br>
+  $hero.getWeakness()
+  </li>
+  </div>
+  #end
+  </ul>
+#else
+  <p>No heroes!</p>
+#end
+
+
+<a class="btn btn-outline-dark" href="/">Back to Home</a>
+<a class="btn btn-outline-dark" href="/form/new">Add New hero</a>
+</div>
