@@ -17,6 +17,22 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
+//Parse form.vtl to add heroes
+        get("/form/new", (request, response) -> {
+           Map<String, Object> model = new HashMap<String, Object>();
+           model.put("template", "templates/form.vtl");
+           return new ModelAndView(model, layout);
+       }, new VelocityTemplateEngine());
+
+
+//Parse heroes.vtl to display the heroes
+       get("/heroes", (request,response) -> {
+         Map<String, Object> model = new HashMap<String, Object>();
+         model.put("heroes", Hero.all());
+         model.put("template", "templates/heroes.vtl");
+         return new ModelAndView(model, layout);
+       }, new VelocityTemplateEngine());
+
 
     }
 }
