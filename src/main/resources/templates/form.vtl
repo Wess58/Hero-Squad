@@ -1,0 +1,32 @@
+<img id="lego" src="/images/Lego.jpg">
+<div class="container contform">
+<h1 id="formh1">Create your heroes</h1>
+
+<form action="/heroes" method="post" class="form-group">
+<div class="form-group">
+    <label for="alias">Hero Alias</label>
+    <br>
+    <input  class="input" id="alias" name="alias" placeholder="Enter your Hero's name" type="text" required min.length="5">
+</div>
+
+<div class="form-group">
+    <label for="specialPower">Special power</label>
+    <br>
+    <input class="input" id="specialPower" name="specialPower" placeholder="eg: laser eyes" type="text" required min.length="10">
+</div>
+
+<div class="form-group">
+    <label for="weakness">Weakness</label>
+    <br>
+    <input class="input" id="weakness" name="weakness" placeholder="eg: Pepper Spray" type="text" required min.length="10">
+</div>
+
+<div class="form-group">
+    <label for="age">Age</label>
+    <br>
+    <input class="input" id="age" name="age" type="number" required min="1" max="100">
+</div>
+
+    <button type="submit" class="btn btn-outline-light">Create</button>
+</form>
+</div>
