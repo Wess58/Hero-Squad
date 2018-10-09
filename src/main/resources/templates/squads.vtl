@@ -1,0 +1,7 @@
+<div class="container">
+<ul>
+  #foreach ($squad in $squads)
+    <li><a href="/squad/$squad.getId()">$squad.getSquadName()</a></li>
+  #end
+</ul>
+<a class="btn btn-outline-dark"href="/squad-form/new">Add New squad</a>

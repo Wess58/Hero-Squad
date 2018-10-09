@@ -6,7 +6,10 @@ body {
 .contform {
   margin-top: -60%;
 }
-
+.contSquadform{
+  margin-top: -60%;
+  color: white;
+}
 .contIndex {
   margin-top: 2em;
   padding: 20px;
@@ -52,10 +55,21 @@ input {
 label {
   font-size: 30px;
 }
+.btn1{
+  margin-left: 2em;
+}
 
 #lego {
   width: 1152px;
   height: 720px;
+  margin-top: 2em;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 10px #808b96;
+}
+
+#darth{
+  width: 1200px;
+  height: 675px;
   margin-top: 2em;
   border-radius: 5px;
   box-shadow: 0 0 30px 10px #808b96;
@@ -79,7 +93,7 @@ label {
   font-size: 100px;
 }
 
-#formh1 {
+.formh1 {
   font-family: 'Audiowide', cursive;
   font-weight: bold;
   font-size: 50px;

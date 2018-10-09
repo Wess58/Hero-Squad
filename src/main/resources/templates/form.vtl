@@ -1,8 +1,11 @@
 <img id="lego" src="/images/Lego.jpg">
 <div class="container contform">
-<h1 id="formh1">Create your heroes</h1>
+<h1 class="formh1">Create your $squad.getSquadName() heroes </h1>
 
 <form action="/heroes" method="post" class="form-group">
+<input id="squadId" name="squadId" type="hidden" value="$squad.getId()">
+
+
 <div class="form-group">
     <label for="alias">Hero Alias</label>
     <br>

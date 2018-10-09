@@ -1,10 +1,12 @@
-#if ($squad)
-  <p>Current squad:</p>
-  <p><a href="/squad">$squad.getSquadName()</a></p>
-#else
-  <p>No squads!</p>
-#end
+<h1>$squad.getSquadName() heroes:</h1>
+<h2>$squad.getDescription()</h2>
 
+<ul>
+  #foreach($hero in $squad.getAlias())
+  <li><a href="/heroes/$hero.getId">$hero.getAlias()</a>
+  #end
+  </ul>
 
-<a href="/">Back to Home</a>
-<a href="/form">Add New squad</a>
+  <a class="btn btn-outline-dark" href="/squads/$squad.getId()/form/new">Add new Hero</a>
+  <a class="btn btn-outline-dark" href="/squads">View All squads</a>
+  <a class="btn btn-outline-success" href="/heroes">View All Heroes</a>
